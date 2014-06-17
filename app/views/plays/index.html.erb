@@ -1,0 +1,8 @@
+<h1>Plays</h1>
+<% @plays.each do |play| %>
+<nav class='ulplays'>
+<ul>
+  <li><%= link_to(play.name, play_path(play.id)) %></li>
+</ul>
+</nav>
+<% end %>

@@ -1,0 +1,53 @@
+#container {
+  height: 500px;
+}
+
+a {
+  margin: 25;
+  text-decoration: none;
+  color: white;
+}
+
+.ulplays {
+  background: gray;
+  margin: 25px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-right: 1000px;
+
+}
+
+.ultheater {
+  background: gray;
+  margin: 25px;
+  border-radius: 25px;
+  padding: 10px;
+  margin-right: 1000px;
+
+}
+
+.hanchor, .aanchor, .tanchor, .panchor {
+  background: gray;
+  float: left;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.psearch, .tsearch {
+  padding: 25px;
+  display: inline-block;
+  font-family: Arial;
+}
+
+h1 {
+  font-family: Arial;
+  text-align: center;
+}
+
+p {
+  font-family: Helvetica;
+  padding-right: 50px;
+  padding-left: 50px;
+
+}

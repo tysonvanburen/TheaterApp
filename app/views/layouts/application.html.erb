@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TheaterApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class='form'>
+  <form id="form_id" action="index.html" method="post">
+    <div class='tsearch'>
+      <label>Search Theater:</label>
+      <input type="text" name="some_name" value="">
+    </div>
+      <div class='psearch'>
+        <label>Search Plays:</label>
+        <input type="text" name="some_name" value="">
+      </div>
+  </form>
+</div>
+<%= yield %>
+<nav id='nav'>
+  <div class='hanchor'>
+    <%= link_to 'Go Home', root_path %>
+  </div>
+  <div class='tanchor'>
+    <%= link_to 'View Theaters', theaters_path %>
+  </div>
+  <div class='panchor'>
+    <%= link_to 'View Plays', plays_path %>
+  </div>
+  <div class='aanchor'>
+    <%= link_to 'About Our App', static_about_path %>
+  </div>
+</nav>
+<footer></footer>
+</body>
+</html>
